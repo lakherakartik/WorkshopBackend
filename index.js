@@ -26,6 +26,6 @@ app.use("/resetpassword", require("./routes/userRoutes.js"));
 
 
 app.listen(
-    4000,
+    process.env.PORT,
     console.log('Server is running on 4000')
 )
